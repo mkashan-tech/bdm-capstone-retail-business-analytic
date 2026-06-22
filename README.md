@@ -114,14 +114,15 @@ The analysis was performed on manually digitized operational records collected f
 
 ## Data Included
 
-* Revenue
-* Cash Sales
-* Credit Sales
-* Product Categories
-* Customer Credit History
-* Outstanding Balances
-* Payment Delays
-* Default Behaviour
+- Revenue and sales performance metrics
+- Cash and credit transaction records
+- Product category information
+- Customer credit history
+- Outstanding balances and repayment behaviour
+- Payment delays and default indicators
+- Cost and profitability information
+
+The combined datasets enabled financial analysis, profitability assessment, customer segmentation, credit risk modeling, and business performance evaluation.
 
 ---
 
