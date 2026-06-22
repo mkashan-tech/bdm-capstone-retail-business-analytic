@@ -28,25 +28,37 @@ The outcome was a structured framework capable of reducing default exposure, imp
 
 ## Key Results
 
-| Metric                       | Value       |
-| ---------------------------- | ----------- |
-| Annual Revenue Analyzed      | ₹32.8 Lakhs |
-| Customers Evaluated          | 105         |
-| Credit Transactions Analyzed | 2,625       |
-| Category-wise Sales Records  | 1,105       |
-| Daily Financial Records      | 366         |
-| Bad Debt Identified          | ₹40,184     |
-| Potential Additional Profit  | ₹53,798+    |
-| Projected Profit Growth      | +43.4%      |
-| Academic Grade               | S (90/100)  |
+| Metric | Value |
+|---------|---------|
+| Annualized Revenue (12-Month Dataset) | ₹32.8 Lakhs |
+| Transaction-Level Revenue (5-Month Dataset) | ₹13.09 Lakhs |
+| Customers Evaluated | 105 |
+| Credit Transactions Analyzed | 2,625 |
+| Category-wise Sales Records | 1,105 |
+| Daily Financial Records | 366 |
+| Bad Debt Identified | ₹40,184 |
+| Potential Additional Profit | ₹53,798+ |
+| Projected Profit Growth | +43.4% |
+| Academic Grade | S (90/100) |
 
 ---
 
-# 📊 Executive Dashboard
+# 👥 Customer Reliability Scoring & Credit Policy Results
 
-The project culminated in an executive-level dashboard summarizing customer risk, financial performance, profitability metrics, and business recommendations.
+The reliability scoring model segmented 105 customers into four risk tiers and generated risk-based credit limits to support data-driven credit decisions and reduce default risk.
 
-![Executive Dashboard](images/executive_dashboard.png)
+### 📊 Customer Tier Summary
+
+| Risk Tier | Customer Count | Share (%) | Avg. Reliability Score | Avg. Recommended Credit Limit |
+| :--- | :---: | :---: | :---: | :---: |
+| 🟢 **Premium** | 59 | 56.2% | 85.6 | ₹1,712 |
+| 🟡 **Standard** | 4 | 3.8% | 73.6 | ₹1,473 |
+| 🟠 **Watchlist** | 14 | 13.3% | 56.4 | ₹1,127 |
+| 🔴 **Cash Only** | 28 | 26.7% | 37.3 | ₹0 |
+
+> 💡 **Key Operational Insight**
+>
+> While the Premium tier represents **56.2%** of customers and accounts for **₹0 in defaults**, the Cash Only tier generated **₹28,957 in defaults**, representing **72.1% of total bad debt**. This finding directly justified the introduction of a risk-based credit allocation framework.
 
 ---
 
@@ -124,6 +136,13 @@ The analysis was performed on manually digitized operational records collected f
 
 The combined datasets enabled financial analysis, profitability assessment, customer segmentation, credit risk modeling, and business performance evaluation.
 
+## Data Preparation Highlights
+
+- Missing repayment amounts were treated as ₹0.
+- Missing repayment dates were imputed using a 15-day average repayment delay.
+- Payment status labels were standardized before analysis.
+- Data validation checks were performed before modeling and reporting.
+  
 ---
 
 # 🔍 Methodology
@@ -178,22 +197,22 @@ Revenue analysis showed that Staples contributed the largest share of sales but 
 
 | Category      | Revenue Share | Profit Margin |
 | ------------- | ------------- | ------------- |
-| Staples       | 57.4%         | 9.25%         |
-| Personal Care | 3.7%          | 26.56%        |
-| Snacks        | 5.0%          | 20.91%        |
+| Staples       | 57.41%         | 9.25%         |
+| Personal Care | 3.69%          | 26.56%        |
+| Snacks        | 5.00%          | 20.91%        |
 
 ---
 
 # 🤖 Customer Risk Modeling
 
 To improve credit allocation decisions, a custom **Reliability Score (0–100)** was developed.
+The score combined customer default behaviour and repayment delays to create a quantitative measure of creditworthiness for risk-based decision making.
 
 ## Model Structure
 
-Reliability Score =
+Reliability Score = (0.7 × Default Behaviour Score) + (0.3 × Payment Delay Score)
 
-* Default Behaviour Score (70%)
-* Payment Delay Score (30%)
+The model assigned greater weight to customer default behaviour (70%) than repayment delays (30%), reflecting the higher financial impact of unrecovered credit.
 
 ## Customer Segmentation
 
@@ -308,7 +327,6 @@ Implementation of the proposed recommendations demonstrated substantial potentia
 * Strategic Recommendation Design
 
 ## Tools & Technologies
-
 * Python
 * Pandas
 * NumPy
@@ -316,6 +334,8 @@ Implementation of the proposed recommendations demonstrated substantial potentia
 * Seaborn
 * Google Colab
 * Google Sheets
+
+## Version Control
 * Git
 * GitHub
 
@@ -371,9 +391,9 @@ Through this project, I gained practical experience in:
 BS in Data Science and Applications
 Indian Institute of Technology Madras
 
-GitHub: https://github.com/mkashan-tech
+GitHub: [mkashan-tech](https://github.com/mkashan-tech)
 
-LinkedIn: https://linkedin.com/in/mohammad-kashan-tech
+LinkedIn: [mohammad-kashan-tech](https://linkedin.com/in/mohammad-kashan-tech)
 
 ---
 
