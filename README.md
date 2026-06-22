@@ -1,139 +1,148 @@
 # 📈 Retail Profitability & Credit Risk Analytics
 
-### BDM Capstone Project | IIT Madras BS Degree Program
+### IIT Madras Business Data Management (BDM) Capstone Project | Python | Business Analytics | Data-Driven Decision Making
 
-A complete end-to-end Business Analytics project focused on improving profitability, cash flow, and credit risk management for a neighborhood grocery store using data-driven decision-making.
+⭐ **Achieved S Grade (90/100) in IIT Madras Business Data Management Capstone Project**
+
+📊 Analyzed **2,625 credit transactions**, **1,105 category-wise sales records**, and **366 daily financial observations** to design a data-driven framework for improving profitability, cash flow quality, and credit risk management in a real retail business.
 
 ---
 
-# 🎯 Project Overview
+# 🏆 Academic Outcome
 
-This project was conducted in collaboration with **Faiz General Store**, a family-owned grocery retailer in Prayagraj generating approximately **₹30 lakh annual revenue**.
+This project was completed as part of the **Business Data Management (BDM) Capstone Project** under the **BS in Data Science and Applications Program** at **Indian Institute of Technology Madras (IIT Madras)**.
 
-Although the business maintained stable revenue, analysis revealed significant profitability and liquidity challenges caused by:
+**Final Grade: S (90/100)**
 
-* High credit defaults
-* Deteriorating cash flow
-* Low profit margins
-* Poor product portfolio mix
+![IIT Madras BDM Project S Grade](images/iitm_bdm_project_s_grade.png)
 
-The objective was to diagnose these issues, quantify their financial impact, and design practical business solutions backed by data.
+---
+
+# 📌 Executive Summary
+
+Faiz General Store, a family-owned grocery retailer in Prayagraj, generated approximately ₹30 lakh annual revenue but faced increasing financial pressure due to customer credit defaults, declining cash flow quality, and heavy dependence on low-margin product categories.
+
+This project applied business analytics techniques to identify the root causes of these issues, quantify their financial impact, and design practical business solutions. The analysis combined financial performance evaluation, category profitability analysis, customer risk assessment, and credit policy redesign to improve decision-making.
+
+The outcome was a structured framework capable of reducing default exposure, improving liquidity, and increasing overall profitability.
+
+## Key Results
+
+| Metric                       | Value       |
+| ---------------------------- | ----------- |
+| Annual Revenue Analyzed      | ₹32.8 Lakhs |
+| Customers Evaluated          | 105         |
+| Credit Transactions Analyzed | 2,625       |
+| Category-wise Sales Records  | 1,105       |
+| Daily Financial Records      | 366         |
+| Bad Debt Identified          | ₹40,184     |
+| Potential Additional Profit  | ₹53,798+    |
+| Projected Profit Growth      | +43.4%      |
+| Academic Grade               | S (90/100)  |
+
+---
+
+# 📊 Executive Dashboard
+
+The project culminated in an executive-level dashboard summarizing customer risk, financial performance, profitability metrics, and business recommendations.
+
+![Executive Dashboard](images/executive_dashboard.png)
 
 ---
 
 # 🏢 Business Context
 
-### Organization
+## Organization
 
 **Faiz General Store**
 
 * Family-owned grocery retailer
 * Operating since 1995
-* B2C business model
-* Serves daily household essentials
-* Approximate annual revenue: ₹30 Lakhs
+* B2C retail business
+* Serves daily household and consumer goods
+* Approximate annual revenue of ₹30 lakh
+
+Although revenue remained relatively stable, the business lacked structured systems for customer credit assessment, risk management, and profitability optimization.
 
 ---
 
-# 🚨 Business Problems Identified
+# 🚨 Business Problems
 
-## 1. Credit Default Crisis
+The analysis identified three major challenges affecting business performance.
 
-* ₹40,184 lost due to customer defaults
-* 24.5% of gross profit wiped out
-* Credit sales created growing liquidity pressure
+## 1. Credit Risk
+
+* Increasing losses from customer defaults
+* No formal customer credit evaluation system
+* Credit allocation based primarily on experience and intuition
 
 ## 2. Cash Flow Deterioration
 
-* Cash-to-Credit Ratio declined from **3.42** to **1.86**
-* Business entered the financial "Warning Zone"
+* Declining Cash-to-Credit Ratio
+* Rising working capital pressure
+* Reduced liquidity quality
 
-## 3. Profitability Paradox
+## 3. Profitability Challenges
 
-* Staples generated 57% of revenue
-* Margin only 9.25%
-* High-margin categories remained underutilized
-
----
-
-# 📊 Data Collection
-
-All datasets were collected directly from business records and manually digitized.
-
-## Dataset 1: Credit Management
-
-Period:
-March 2025 – August 2025
-
-Contents:
-
-* Customer transactions
-* Credit amounts
-* Payment dates
-* Outstanding balances
-* Delay information
-
-Records:
-
-* 2,625 credit transactions
-* 105 customers
+* Revenue concentrated in low-margin categories
+* High-margin categories underutilized
+* Inefficient product portfolio mix
 
 ---
 
-## Dataset 2: Category Analysis
+# 🔒 Confidentiality Notice
 
-Period:
-March 2025 – August 2025
+This project was conducted using real business records from Faiz General Store.
 
-Contents:
+To protect customer privacy and business-sensitive information, raw customer-level datasets, personally identifiable information (PII), and operational transaction records are not included in this public repository.
 
-* Revenue by category
-* Cost by category
-* Profit margins
-
-Categories:
-
-* Staples
-* Snacks
-* Personal Care
-* Beverages
-* Dairy & Bakery
-* Cleaning & Household
+Only aggregated analytical outputs, dashboards, visualizations, methodologies, and business insights are shared.
 
 ---
 
-## Dataset 3: Financial Health
+# 🗂️ Data Overview
 
-Period:
-September 2024 – August 2025
+The analysis was performed on manually digitized operational records collected from store transactions.
 
-Contents:
+## Dataset Summary
 
-* Daily Revenue
+| Dataset                      | Period              | Records    |
+| ---------------------------- | ------------------- | ---------- |
+| Daily Financial Performance  | Sep 2024 – Aug 2025 | 366 Rows   |
+| Category-wise Sales Analysis | Mar 2025 – Aug 2025 | 1,105 Rows |
+| Credit Transactions          | Mar 2025 – Aug 2025 | 2,625 Rows |
+
+## Data Included
+
+* Revenue
 * Cash Sales
 * Credit Sales
-* Cost
-
-Records:
-
-* 366 daily observations
+* Product Categories
+* Customer Credit History
+* Outstanding Balances
+* Payment Delays
+* Default Behaviour
 
 ---
 
 # 🔍 Methodology
 
-The project followed a complete Business Analytics workflow:
+The project followed a complete business analytics workflow.
 
 ```text
 Business Understanding
         ↓
 Data Collection
         ↓
+Data Digitization
+        ↓
 Data Cleaning
+        ↓
+Data Validation
         ↓
 Exploratory Data Analysis
         ↓
-Analytical Modeling
+Risk Modeling
         ↓
 Business Recommendations
         ↓
@@ -142,61 +151,50 @@ Impact Projection
 
 ---
 
-# 🧹 Data Preparation
+# 📉 Cash Flow Analysis
 
-Performed:
+Financial health analysis revealed a continuous decline in the Cash-to-Credit Ratio, indicating worsening liquidity quality and increasing exposure to credit-related risks.
 
-* Missing value treatment
-* Data validation
-* Standardization
-* Feature derivation
-* Customer-level aggregation
+![Cash to Credit Ratio Trend](images/cash_to_credit_ratio_trend.png)
 
----
+### Key Insight
 
-# 📈 Exploratory Data Analysis
+Cash-to-Credit Ratio declined from:
 
-Key insights discovered:
+**3.42 → 1.86**
 
-### Revenue Patterns
-
-* Weekend revenue approximately 22% higher than weekdays
-
-### Liquidity Trends
-
-* Continuous decline in Cash-to-Credit Ratio
-
-### Profitability Trends
-
-* Stable revenue but weak profitability
-
-### Customer Behavior
-
-* Credit risk highly concentrated among a small customer segment
+placing the business in a financial warning zone.
 
 ---
 
-# 🤖 Analytical Models
+# 🛒 Category Profitability Analysis
 
-## 1. Customer Reliability Score Model
+Revenue analysis showed that Staples contributed the largest share of sales but delivered relatively low profit margins. Higher-margin categories such as Personal Care and Snacks represented attractive growth opportunities.
 
-Developed a custom Reliability Score (0–100) for advanced credit management.
+![BCG Matrix](images/bcg_matrix.png)
 
-### Model Structure
+### Key Insight
+
+| Category      | Revenue Share | Profit Margin |
+| ------------- | ------------- | ------------- |
+| Staples       | 57.4%         | 9.25%         |
+| Personal Care | 3.7%          | 26.56%        |
+| Snacks        | 5.0%          | 20.91%        |
+
+---
+
+# 🤖 Customer Risk Modeling
+
+To improve credit allocation decisions, a custom **Reliability Score (0–100)** was developed.
+
+## Model Structure
 
 Reliability Score =
-Default Score + Delay Score
 
-Weight Allocation:
-
-* Default Behavior → 70%
-* Payment Delay → 30%
-
----
+* Default Behaviour Score (70%)
+* Payment Delay Score (30%)
 
 ## Customer Segmentation
-
-Customers were classified into four risk tiers:
 
 | Tier      | Score Range |
 | --------- | ----------- |
@@ -205,143 +203,48 @@ Customers were classified into four risk tiers:
 | Watchlist | 50–64       |
 | Cash Only | <50         |
 
-This segmentation formed the foundation of the final credit policy.
+This segmentation framework enabled risk-based customer classification and structured credit decision-making.
 
 ---
 
-## 2. Dynamic Credit Limit System
+# 📊 Customer Risk Insights
 
-A new credit allocation framework was developed:
+Analysis revealed that financial losses were highly concentrated among a small segment of customers.
 
+### Major Findings
+
+* 98% of financial losses originated from Watchlist and Cash Only customers
+* Cash Only customers generated the majority of bad debt
+* Credit risk was concentrated among a relatively small group of customers
+
+![Reliability Tier Impact](images/reliability_tier_default_impact.png)
+
+---
+
+# 💳 Dynamic Credit Policy Framework
+
+The project introduced a risk-based credit allocation system designed to align credit limits with customer reliability.
+
+## Credit Limit Formula
+
+```text
 Credit Limit = Reliability Score × 20
+```
 
-This policy:
+## Business Benefits
 
-* Eliminates credit for high-risk customers
-* Rewards reliable customers
-* Creates scalable risk management
+* Reduced default exposure
+* Improved credit discipline
+* Better working capital allocation
+* Scalable credit management framework
 
----
-
-## 3. BCG-Style Strategic Portfolio Analysis
-
-Built a custom BCG Matrix using:
-
-* Revenue Share
-* Profit Margin
-* Revenue Contribution
-
-Purpose:
-
-* Identify high-margin growth opportunities
-* Detect low-margin revenue traps
-* Improve category mix
+![Dynamic Credit Policy](images/dynamic_credit_limit_system.png)
 
 ---
 
-# 🔑 Major Findings
+# 💰 Projected Business Impact
 
-## Credit Risk Findings
-
-### High Risk Concentration
-
-* 98% of all financial losses originated from Watchlist and Cash Only customers
-
-### Cash Only Tier
-
-* 28 customers only
-* Responsible for 72% of defaults
-* Generated approximately ₹28,957 bad debt
-
-### Profitability Impact
-
-Cash Only customers operated at:
-
--11.8% net profitability
-
----
-
-## Category Analysis Findings
-
-### Revenue Leader
-
-Staples
-
-* 57% revenue share
-* Only 9.25% margin
-
-### Margin Leaders
-
-Personal Care
-
-* 26.6% margin
-
-Snacks
-
-* 20.9% margin
-
-These categories represented significant growth opportunities.
-
----
-
-## Financial Health Findings
-
-### Cash-to-Credit Ratio
-
-Declined from:
-
-3.42 → 1.86
-
-indicating worsening liquidity conditions.
-
----
-
-# 💡 Recommendations
-
-## Immediate Actions
-
-### Credit Risk Control
-
-* Remove credit access for Cash Only customers
-* Implement Reliability Score framework
-* Deploy Dynamic Credit Limit System
-
----
-
-## Growth Strategy
-
-### Product Portfolio Shift
-
-Increase focus on:
-
-* Personal Care
-* Snacks
-
-Reduce over-dependence on low-margin Staples.
-
----
-
-## Weekend Revenue Strategy
-
-Use weekend traffic surge (+22%) to:
-
-* Promote high-margin products
-* Create bundled offers
-* Improve profit mix
-
----
-
-## Customer Retention Strategy
-
-Launch:
-
-* One-month 2% store-wide discount campaign
-
-to ensure smooth transition to the new credit policy.
-
----
-
-# 📊 Projected Business Impact
+Implementation of the proposed recommendations demonstrated substantial potential for improving profitability and reducing financial losses.
 
 | Metric        | Current   | Projected |
 | ------------- | --------- | --------- |
@@ -349,64 +252,114 @@ to ensure smooth transition to the new credit policy.
 | Net Margin    | 9.45%     | 13.50%    |
 | Profit Growth | —         | +43.4%    |
 
-Projected Additional Profit:
+## Estimated Additional Profit
 
-₹53,798+
+### ₹53,798+
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠 Skills Demonstrated
 
-### Programming
+## Data Management
+
+* Data Collection
+* Data Digitization
+* Data Validation
+* Data Standardization
+* Data Quality Assessment
+
+## Data Preparation
+
+* Data Cleaning
+* Missing Value Handling
+* Feature Engineering
+* Data Aggregation
+* Customer-Level Dataset Creation
+
+## Business Analytics
+
+* KPI Analysis
+* Profitability Analysis
+* Cash Flow Analysis
+* Customer Segmentation
+* Business Performance Evaluation
+
+## Data Analysis
+
+* Exploratory Data Analysis (EDA)
+* Trend Analysis
+* Financial Analysis
+* Category Performance Analysis
+* Descriptive Analytics
+
+## Risk Analytics
+
+* Credit Risk Assessment
+* Reliability Scoring
+* Customer Classification
+* Risk-Based Credit Allocation
+
+## Business Intelligence
+
+* Dashboard Development
+* Executive Reporting
+* Data Visualization
+* Strategic Recommendation Design
+
+## Tools & Technologies
 
 * Python
-
-### Data Analysis
-
 * Pandas
 * NumPy
-
-### Visualization
-
 * Matplotlib
 * Seaborn
-
-### Development Environment
-
 * Google Colab
+* Google Sheets
+* Git
+* GitHub
 
 ---
 
-# 📂 Repository Contents
+# 📂 Repository Structure
 
 ```text
-reports/
+bdm-capstone-retail-business-analytics/
 │
-├── Proposal_Report.pdf
-├── Midterm_Report.pdf
-└── Final_Report.pdf
-
-notebook/
+├── reports/
+│   ├── Proposal_Report.pdf
+│   ├── Midterm_Report.pdf
+│   └── Final_Report.pdf
 │
-└── BDM_Project_Notebook.ipynb
-
-presentations/
+├── notebook/
+│   └── BDM_Project_Notebook.ipynb
 │
-├── Academic_Presentation.pptx
-└── Stakeholder_Presentation.pptx
-
-sample-data/
+├── presentations/
+│   ├── Academic_Presentation.pptx
+│   └── Stakeholder_Presentation.pptx
 │
-├── Credit_Sample.csv
-├── Category_Sample.csv
-└── Financial_Sample.csv
+├── images/
+│   ├── iitm_bdm_project_s_grade.png
+│   ├── executive_dashboard.png
+│   ├── cash_to_credit_ratio_trend.png
+│   ├── bcg_matrix.png
+│   ├── reliability_tier_default_impact.png
+│   └── dynamic_credit_limit_system.png
+│
+└── README.md
 ```
 
 ---
 
-# 📚 Academic Context
+# 🎯 Learning Outcomes
 
-This project was completed as part of the **Business Data Management (BDM) Capstone Project** under the **BS in Data Science and Applications Program** offered by **Indian Institute of Technology Madras**.
+Through this project, I gained practical experience in:
+
+* Solving real-world business problems using data
+* Converting raw business records into analytical datasets
+* Designing risk-based decision frameworks
+* Translating analytical insights into business recommendations
+* Communicating findings to technical and non-technical stakeholders
+* Applying business analytics in a real operational environment
 
 ---
 
@@ -415,15 +368,12 @@ This project was completed as part of the **Business Data Management (BDM) Capst
 **Mohammad Kashan**
 
 BS in Data Science and Applications
-
 Indian Institute of Technology Madras
 
-LinkedIn: linkedin.com/in/mohammad-kashan-tech
+GitHub: https://github.com/mkashan-tech
 
-GitHub: github.com/mkashan-tech
-
-Email: [mohammad.kashan.tech@gmail.com](mailto:mohammad.kashan.tech@gmail.com)
+LinkedIn: https://linkedin.com/in/mohammad-kashan-tech
 
 ---
 
-⭐ If you found this project interesting, feel free to explore the reports, notebook, and presentations included in this repository.
+⭐ If you found this project interesting, feel free to explore the reports, notebook, visualizations, dashboards, and presentations included in this repository.
