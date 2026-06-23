@@ -32,12 +32,12 @@ The outcome was a structured framework capable of reducing default exposure, imp
 |---------|---------|
 | Annualized Revenue (12-Month Dataset) | ₹32.8 Lakhs |
 | Transaction-Level Revenue (5-Month Dataset) | ₹13.09 Lakhs |
-| Customers Evaluated | 105 |
+| Credit Customers Evaluated | 105 |
 | Credit Transactions Analyzed | 2,625 |
 | Category-wise Sales Records | 1,105 |
 | Daily Financial Records | 366 |
-| Bad Debt Identified | ₹40,184 |
-| Potential Additional Profit | ₹53,798+ |
+| Bad Debt Identified (5-Month Audit) | ₹40,184 |
+| Projected Additional Profit (5-Month Simulation) | ₹53,798+ |
 | Projected Profit Growth | +43.4% |
 | Academic Grade | S (90/100) |
 
@@ -45,7 +45,7 @@ The outcome was a structured framework capable of reducing default exposure, imp
 
 # 👥 Customer Reliability Scoring & Credit Policy Results
 
-The reliability scoring model segmented 105 customers into four risk tiers and generated risk-based credit limits to support data-driven credit decisions and reduce default risk.
+The reliability scoring model segmented 105 credit customers into four risk tiers and generated risk-based credit limits to support data-driven credit decisions and reduce default risk.
 
 ### 📊 Customer Tier Summary
 
@@ -321,7 +321,6 @@ Implementation of the proposed recommendations demonstrated substantial potentia
 
 ## Business Intelligence
 
-* Dashboard Development
 * Executive Reporting
 * Data Visualization
 * Strategic Recommendation Design
@@ -349,14 +348,15 @@ bdm-capstone-retail-business-analytics/
 ├── reports/
 │   ├── Proposal_Report.pdf
 │   ├── Midterm_Report.pdf
-│   └── Final_Report.pdf
+│   ├── Final_Report.pdf
+│   └── IITM_Authorization_Letter.pdf
 │
 ├── notebook/
-│   └── BDM_Project_Notebook.ipynb
+│   └── IITM_BDM_Project_Colab_Notebook.ipynb
 │
 ├── presentations/
-│   ├── Academic_Presentation.pptx
-│   └── Stakeholder_Presentation.pptx
+│   ├── Academic_Presentation.pdf
+│   └── Stakeholder_Presentation.pdf
 │
 ├── images/
 │   ├── iitm_bdm_project_s_grade.png
@@ -366,7 +366,10 @@ bdm-capstone-retail-business-analytics/
 │   ├── reliability_tier_default_impact.png
 │   └── dynamic_credit_limit_system.png
 │
+├── requirements.txt
 └── README.md
+```
+
 ```
 
 ---
@@ -397,4 +400,4 @@ LinkedIn: [mohammad-kashan-tech](https://linkedin.com/in/mohammad-kashan-tech)
 
 ---
 
-⭐ If you found this project interesting, feel free to explore the reports, notebook, visualizations, dashboards, and presentations included in this repository.
+⭐ If you found this project interesting, feel free to explore the reports, notebook, visualizations, and presentations included in this repository.
