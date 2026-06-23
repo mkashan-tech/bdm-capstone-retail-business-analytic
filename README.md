@@ -389,8 +389,8 @@ Through this project, I gained practical experience in:
 
 **Mohammad Kashan**
 
-BS in Data Science and Applications
-Indian Institute of Technology Madras
+BS in Data Science and Applications  
+Indian Institute of Technology Madras (IIT Madras)
 
 GitHub: [mkashan-tech](https://github.com/mkashan-tech)
 
