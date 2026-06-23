@@ -370,8 +370,6 @@ bdm-capstone-retail-business-analytics/
 └── README.md
 ```
 
-```
-
 ---
 
 # 🎯 Learning Outcomes
