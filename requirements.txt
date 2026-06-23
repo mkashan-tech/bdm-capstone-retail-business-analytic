@@ -1,0 +1,18 @@
+# Data Manipulation & Analysis
+
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Data Visualization
+
+matplotlib>=3.7.0
+seaborn>=0.13.0
+
+# Google Sheets Integration
+
+gspread>=6.0.0
+google-auth>=2.20.0
+
+# Statistical Analysis
+
+scipy>=1.10.0
