@@ -224,4 +224,3 @@ BS in Data Science and Applications — IIT Madras
 ---
 
 ⭐ If you found this project useful, feel free to star the repository.
-```
