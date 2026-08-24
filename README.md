@@ -1,10 +1,4 @@
-
 # Retail Profitability & Credit Risk Analytics
-
-![IIT Madras](https://img.shields.io/badge/IIT%20Madras-BS%20Data%20Science-blue)
-![Grade](https://img.shields.io/badge/Grade-S%20(90/100)-green)
-![Python](https://img.shields.io/badge/Python-3.10+-yellow)
-![Status](https://img.shields.io/badge/Project-Completed-success)
 
 ### Independent Business Analytics Case Study | Primary Research | Data-Driven Strategy for a ₹30L Revenue SME
 
@@ -19,12 +13,12 @@ Business Data Management (BDM) Capstone — Independent Research Project
 | Metric | Before | After (Projected) | Change |
 |---|---|---|---|
 | Net Profit Margin | 9.45% | **13.50%** | **+405 bps** |
-| Bad Debt (5 months) | ₹40,184 | ~₹11,000 | **-72% immediate** |
+| Bad Debt (5 months) | ₹40,184 | ~₹11,000 | **-72% exposure** |
 | Additional Profit (5 months) | — | **₹53,798+** | **+43.4%** |
 
-> **Liquidity Context:** Cash-to-Credit ratio declined from 3.42 to 1.86 (Warning Zone). The Safe Zone threshold is >2.5. With 72% of high-risk credit frozen and cash sales incentivized via the 2% discount, the ratio is structurally positioned to recover toward the Safe Zone.
+> **Liquidity Context:** Cash-to-Credit ratio declined from 3.42 to 1.86 (Warning Zone). With high-risk credit frozen and cash sales incentivized, the ratio is positioned to recover toward the Safe Zone (>2.5).
 
-**Key Insight:** 72% of credit defaults originated from just 26.7% of customers (Cash Only tier), with 98% of all defaults concentrated in only 40% of customers (Watchlist + Cash Only combined). A risk-based credit policy eliminates the majority of the leak while preserving relationships with reliable customers.
+**Key Insight:** 72% of historical default exposure originated from just 26.7% of customers (Cash Only tier), with 98% concentrated in the Watchlist + Cash Only segments. This enabled a targeted credit-control strategy rather than broad restrictions.
 
 ---
 
@@ -32,8 +26,8 @@ Business Data Management (BDM) Capstone — Independent Research Project
 
 **Faiz General Store** (Prayagraj) — a family-owned grocery retailer generating ~₹30 lakh annual revenue — faced three interconnected challenges despite stable sales:
 
-1. **Profit Leak** — Critically low 9.45% net margin with ₹40,184 in bad debt over 5 months
-2. **Liquidity Crisis** — Cash-to-Credit ratio declined from 3.42 to 1.86 (entered warning zone)
+1. **Profit Leak** — Critically low 9.45% net margin with ₹40,184 in bad debt over 5 months  
+2. **Liquidity Crisis** — Cash-to-Credit ratio declined from 3.42 to 1.86 (entered warning zone)  
 3. **Volume vs Value Trap** — 57% of revenue came from low-margin Staples (9.25% margin), while high-margin categories (Personal Care 26.56%, Snacks 20.91%) remained underutilized
 
 ---
@@ -44,9 +38,9 @@ This project was executed as an end-to-end independent consulting engagement wit
 
 | Phase | Deliverable | IITM Review |
 |---|---|---|
-| Phase 1: Discovery & Diagnosis | Proposal Report | Approved |
-| Phase 2: Analytics & Root-Cause | Midterm Report | Approved |
-| Phase 3: Solution Design | Final Report + Presentations | Approved — S Grade |
+| Phase 1: Discovery & Diagnosis | Proposal Report | ✅ Approved |
+| Phase 2: Analytics & Root-Cause | Midterm Report | ✅ Approved |
+| Phase 3: Solution Design | Final Report + Presentations | ✅ Approved — S Grade |
 
 **Phase 1: Discovery & Diagnosis**  
 Primary data collection from operational registers + stakeholder discussions with the business owner. Financial health and liquidity trend diagnosis.
@@ -107,9 +101,9 @@ Reliability Score = (0.7 × Default Behaviour Score) + (0.3 × Payment Delay Sco
 Credit Limit = Reliability Score × 20
 ```
 
-- **Immediate freeze** of credit for all 28 "Cash Only" customers → eliminates **72% of defaults** with zero assumptions
-- **Scalable limits** for the remaining 77 reliable customers → preserves revenue and relationships
-- **Owner-controlled multiplier** (currently 20×) allows the business owner to adjust credit exposure based on market conditions while maintaining score integrity
+- Immediate freeze of credit for all 28 "Cash Only" customers → addresses approximately **72% of historical default exposure**
+- Scalable limits for the remaining 77 reliable customers → preserves revenue and relationships
+- Owner-controlled multiplier (currently 20×) allows the business owner to adjust credit exposure based on market conditions while maintaining score integrity
 
 ### 3. Category Strategy (BCG Matrix)
 
@@ -123,8 +117,8 @@ Credit Limit = Reliability Score × 20
 
 **Phase 1: Stop the Bleeding (Days 1–30)**
 - Freeze credit for 28 Cash Only customers
-- Launch temporary 2% "Fair Play" cash discount to manage transition and prevent churn
-- **Goal:** Eliminate 72% of default exposure immediately
+- Launch temporary 2% “Fair Play” cash discount to manage transition and prevent churn
+- **Goal:** Address the largest concentration of historical default exposure immediately
 
 **Phase 2: Drive Profitability (Months 1–6)**
 - Roll out dynamic credit limits (Score × 20) for 77 reliable customers
@@ -139,7 +133,7 @@ Credit Limit = Reliability Score × 20
 
 **Projected 5-Month Impact:** Net Profit ₹1,23,804 → **₹1,77,602 (+43.4%)** | Net Margin 9.45% → **13.5%**
 
-> **Default Reduction Trajectory:** 72% reduction is immediate and guaranteed (Cash Only freeze). With consistent enforcement of dynamic limits and payment reminders for Watchlist/Standard tiers, the projected path reaches **85% total default reduction**.
+> **Default Reduction Note:** Freezing the Cash Only tier addresses approximately 72% of historical default exposure immediately. Further reduction depends on consistent policy enforcement and subsequent customer behaviour.
 
 ---
 
@@ -229,5 +223,5 @@ BS in Data Science and Applications — IIT Madras
 
 ---
 
-If you found this project useful, feel free to star the repository.
+⭐ If you found this project useful, feel free to star the repository.
 ```
