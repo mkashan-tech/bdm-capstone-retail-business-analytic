@@ -1,3 +1,4 @@
+
 # Retail Profitability & Credit Risk Analytics
 
 ![IIT Madras](https://img.shields.io/badge/IIT%20Madras-BS%20Data%20Science-blue)
@@ -29,7 +30,7 @@ Business Data Management (BDM) Capstone — Independent Research Project
 
 ## Problem Statement
 
-**Faiz General Store** (Prayagraj, est. 1995) — a family-owned grocery retailer generating ~₹30 lakh annual revenue — faced three interconnected challenges despite stable sales:
+**Faiz General Store** (Prayagraj) — a family-owned grocery retailer generating ~₹30 lakh annual revenue — faced three interconnected challenges despite stable sales:
 
 1. **Profit Leak** — Critically low 9.45% net margin with ₹40,184 in bad debt over 5 months
 2. **Liquidity Crisis** — Cash-to-Credit ratio declined from 3.42 to 1.86 (entered warning zone)
@@ -37,24 +38,7 @@ Business Data Management (BDM) Capstone — Independent Research Project
 
 ---
 
-## Project Lifecycle
-
-```mermaid
-flowchart LR
-    A[Discovery & Diagnosis] --> B[Analytics & Root-Cause]
-    B --> C[Solution Design]
-    C --> D[Impact Projection]
-    
-    A1[Proposal Report<br/>20% Weight] --> A
-    B1[Midterm Report<br/>20% Weight] --> B
-    C1[Final Report<br/>40% Weight] --> C
-    D1[Viva Voce<br/>20% Weight] --> D
-    
-    style A fill:#e1f5fe
-    style B fill:#fff3e0
-    style C fill:#e8f5e9
-    style D fill:#fce4ec
-```
+## Consulting Approach
 
 This project was executed as an end-to-end independent consulting engagement with structured IITM oversight:
 
@@ -63,6 +47,18 @@ This project was executed as an end-to-end independent consulting engagement wit
 | Phase 1: Discovery & Diagnosis | Proposal Report | Approved |
 | Phase 2: Analytics & Root-Cause | Midterm Report | Approved |
 | Phase 3: Solution Design | Final Report + Presentations | Approved — S Grade |
+
+**Phase 1: Discovery & Diagnosis**  
+Primary data collection from operational registers + stakeholder discussions with the business owner. Financial health and liquidity trend diagnosis.
+
+**Phase 2: Analytics & Root-Cause**  
+Customer risk segmentation, portfolio analysis using BCG Matrix, and quantification of the ₹40,184 bad debt concentration.
+
+**Phase 3: Solution Design**  
+Custom Reliability Score (0–100) + Dynamic Credit Policy + Category mix optimization strategy.
+
+**Phase 4: Impact Projection & Roadmap**  
+3-phase implementation plan with projected **₹53,798+ additional profit (+43.4% growth)** and net margin expansion from **9.45% to 13.5%**.
 
 ---
 
@@ -197,19 +193,6 @@ This project was completed as the **Business Data Management Capstone** under th
 It is an **independent research project** requiring students to identify a real business, collect primary data, diagnose problems, and deliver actionable insights. The project progressed through a **3-stage gated approval process**: Proposal → Midterm → Final, with each phase requiring IITM faculty approval before proceeding. An official IITM authorization letter supported primary data collection from the business.
 
 **Final Grade: S (90/100)**
-
----
-
-## Learning Outcomes
-
-Through this project, I gained practical experience in:
-
-- Solving real-world business problems using data
-- Converting raw business records into analytical datasets
-- Designing risk-based decision frameworks
-- Translating analytical insights into business recommendations
-- Communicating findings to technical and non-technical stakeholders
-- Applying business analytics in a real operational environment
 
 ---
 
