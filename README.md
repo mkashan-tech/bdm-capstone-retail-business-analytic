@@ -36,23 +36,20 @@ Business Data Management (BDM) Capstone — Independent Research Project
 
 This project was executed as an end-to-end independent consulting engagement with structured IITM oversight:
 
-| Phase | Deliverable | IITM Review |
+| Stage | Deliverable | IITM Review |
 |---|---|---|
-| Phase 1: Discovery & Diagnosis | Proposal Report | ✅ Approved |
-| Phase 2: Analytics & Root-Cause | Midterm Report | ✅ Approved |
-| Phase 3: Solution Design | Final Report + Presentations | ✅ Approved — S Grade |
+| Stage 1: Discovery & Diagnosis | Proposal Report | ✅ Approved |
+| Stage 2: Analytics & Root-Cause | Midterm Report | ✅ Approved |
+| Stage 3: Solution Design & Roadmap | Final Report + Presentations | ✅ Approved — S Grade |
 
-**Phase 1: Discovery & Diagnosis**  
+**Stage 1: Discovery & Diagnosis**  
 Primary data collection from operational registers + stakeholder discussions with the business owner. Financial health and liquidity trend diagnosis.
 
-**Phase 2: Analytics & Root-Cause**  
+**Stage 2: Analytics & Root-Cause**  
 Customer risk segmentation, portfolio analysis using BCG Matrix, and quantification of the ₹40,184 bad debt concentration.
 
-**Phase 3: Solution Design**  
-Custom Reliability Score (0–100) + Dynamic Credit Policy + Category mix optimization strategy.
-
-**Phase 4: Impact Projection & Roadmap**  
-3-phase implementation plan with projected **₹53,798+ additional profit (+43.4% growth)** and net margin expansion from **9.45% to 13.5%**.
+**Stage 3: Solution Design & Roadmap**  
+Custom Reliability Score (0–100) + Dynamic Credit Policy + Category mix optimization strategy, culminating in a 3-phase implementation roadmap projecting **₹53,798+ additional profit (+43.4% growth)** and net margin expansion from **9.45% to 13.5%**.
 
 ---
 
@@ -199,7 +196,7 @@ It is an **independent research project** requiring students to identify a real 
 │   ├── Final_Report.pdf
 │   └── IITM_Authorization_Letter.pdf
 ├── notebook/
-│   └── IITM_BDM_Project_Colab_Notebook.ipynb
+│   └── bdm-capstone-retail-analytics.ipynb
 ├── presentations/
 │   ├── Academic_Presentation.pdf
 │   └── Stakeholder_Presentation.pdf
