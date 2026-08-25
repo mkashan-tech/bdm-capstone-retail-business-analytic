@@ -26,8 +26,8 @@ Business Data Management (BDM) Capstone — Independent Research Project
 
 **Faiz General Store** (Prayagraj) — a family-owned grocery retailer generating ~₹30 lakh annual revenue — faced three interconnected challenges despite stable sales:
 
-1. **Profit Leak** — Critically low 9.45% net margin with ₹40,184 in bad debt over 5 months  
-2. **Liquidity Crisis** — Cash-to-Credit ratio declined from 3.42 to 1.86 (entered warning zone)  
+1. **Profit Leak** — Low 9.45% net margin with ₹40,184 in bad debt over 5 months  
+2. **Liquidity Pressure** — Cash-to-Credit ratio declined from 3.42 to 1.86 (entered warning zone)  
 3. **Volume vs Value Trap** — 57% of revenue came from low-margin Staples (9.25% margin), while high-margin categories (Personal Care 26.56%, Snacks 20.91%) remained underutilized
 
 ---
